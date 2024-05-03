@@ -23,6 +23,7 @@ class Manufacturer(models.Model):
 
     class Meta:
         ordering = ('name',)
+        verbose_name = "manufacturer"
         verbose_name_plural = "manufacturers"
 
 
